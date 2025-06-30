@@ -1,0 +1,29 @@
+.Form-Style {
+  width: 75%;
+  height: 100%;
+}
+
+.Form-Strength-Style {
+  height: 42vh;
+  overflow-y: auto;
+  border: 1px solid #e7e7e7;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.Form-Row-Style {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap; /* allows wrapping on small screens */
+  width: 100%;
+}
+
+.Form-Group-Style {
+  flex: 1; /* makes each item take equal space */
+  min-width: 30vw; /* prevents shrinking too much */
+}
+
+.Form-Date-Style {
+  width: 100%;
+}

@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+
+.App-FlexBoxStyle {
+  width: 100vw;
+  height: 90vh;
+}
+
+.App-titleStyle {
+  width: 100vw;
+  height: 10vh;
+}
