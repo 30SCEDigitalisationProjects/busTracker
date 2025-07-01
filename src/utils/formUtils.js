@@ -6,9 +6,11 @@ export const formatActivityList = async (url) => {
   }
 
   const data = await getActivityList(url);
-  const activities = Object.values(data).map((item) => ({
-    value: item.Id,
-    label: item.Name,
-  }));
+  const activities = Object.values(data)
+    .filter((item) => item.Name && item.Name.trim() !== "")
+    .map((item) => ({
+      value: item.Id,
+      label: item.Name,
+    }));
   return activities;
 };
