@@ -17,28 +17,28 @@ import "./NameListForm.css";
 
 const stages = [
   {
-    title: "School",
-    description: "Arrived at designated school",
+    title: "Arrived at School",
   },
   {
-    title: "On the Way",
-    description: "Travelling to Padang from designated school",
+    title: "Left School, En Route to Padang",
   },
   {
-    title: "Padang",
-    description: "Arrived at Padang",
+    title: "Arrived at Padang",
   },
   {
-    title: "Spectator Gallery",
-    description: "Seated at Spectator Gallery",
+    title: "Seated at Seating Gallery",
   },
   {
-    title: "On The Way",
-    description: "Returning back to desingated school from Padang",
+    title: "Left Seating Gallery",
   },
   {
-    title: "School",
-    description: "Returned to designated school",
+    title: "Reached Bus PUDO",
+  },
+  {
+    title: "Left Bus PUDO, En Route to School",
+  },
+  {
+    title: "Returned to School",
   },
 ];
 
