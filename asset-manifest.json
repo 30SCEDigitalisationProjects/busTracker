@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/busTracker/static/css/main.714865e2.css",
+    "main.css": "/busTracker/static/css/main.e68b5ae9.css",
     "main.js": "/busTracker/static/js/main.37dab415.js",
     "static/js/453.7f301b64.chunk.js": "/busTracker/static/js/453.7f301b64.chunk.js",
     "index.html": "/busTracker/index.html",
-    "main.714865e2.css.map": "/busTracker/static/css/main.714865e2.css.map",
+    "main.e68b5ae9.css.map": "/busTracker/static/css/main.e68b5ae9.css.map",
     "main.37dab415.js.map": "/busTracker/static/js/main.37dab415.js.map",
     "453.7f301b64.chunk.js.map": "/busTracker/static/js/453.7f301b64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.714865e2.css",
+    "static/css/main.e68b5ae9.css",
     "static/js/main.37dab415.js"
   ]
 }
