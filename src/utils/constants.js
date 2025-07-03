@@ -27,6 +27,6 @@ export const CONSTANTS = {
   },
   SHEETS: {
     NE_OPS:
-      "https://script.google.com/macros/s/AKfycbw-Dwr6iQ_0qBeF2LakSvpupUsWF0pLUWIsJrm2-qsmvX2r8PjiivZMvbSScTRC7Xl3/exec",
+      "https://script.google.com/macros/s/AKfycbyr63hPkG-a0War3O5S67y86MXrFN6orUpSxkbbdKgZeKo3LAhKTwvm_wW9hKeCApdt/exec",
   },
 };

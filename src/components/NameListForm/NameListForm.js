@@ -1,7 +1,16 @@
 import { useEffect, useState } from "react";
 
 import dayjs from "dayjs";
-import { Button, Form, Select, Spin, message, Steps, Popconfirm } from "antd";
+import {
+  Button,
+  Form,
+  Select,
+  Spin,
+  message,
+  Steps,
+  Popconfirm,
+  Input,
+} from "antd";
 import { LoadingOutlined } from "@ant-design/icons";
 
 import { formatActivityList } from "../../utils/formUtils";
@@ -188,6 +197,17 @@ const NameListForm = () => {
           )}
           {tripStatus !== CONSTANTS.TRIP_STATUS.PRE_TRIP && (
             <div>
+              <Form.Item>
+                <Input
+                  disabled
+                  value={`BUS ${getFromLocal(
+                    CONSTANTS.FORM_ITEM_KEYS.SCHOOL_NAME
+                  )
+                    .trim()
+                    .split(" ")
+                    .pop()}`}
+                />
+              </Form.Item>
               <Steps
                 direction="vertical"
                 current={tripStatus}
